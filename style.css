@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Segoe UI;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color: #0ed2f7;
+    margin-left: 25px;
+    font-size: 40px;
+}
+
+.setting{
+    width: 65px;
+    height: 80px;
+    background: url(images/3d-plastilina-plus.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+.setting:hover{
+transform: translateY(-2px);
+border: 5px solid white;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+.fb{
+    width: 500px;
+    height: 120px;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.fb:hover{
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+    transform: translateY(-3px);
+}
+
+.insta{
+    width: 500px;
+    height: 120px;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.insta:hover{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    transform: translateY(-3px);
+}
+
+.linkd{
+    width: 500px;
+    height: 120px;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.linkd:hover{
+    background: linear-gradient(to right, #314755, #26a0da);
+    transform: translateY(-3px);
+}
+.twitter{
+    width: 500px;
+    height: 120px;
+    background: linear-gradient(to right, #b2fefa, #0ed2f7);
+    border: 5px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.twitter:hover{
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    transform: translateY(-3px);
+}
+
+.icon1{
+    width: 90px;
+    height: 100px;
+    background-image: url(images/3d-plastilina-facebook.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon2{
+    width: 90px;
+    height: 100px;
+    background-image: url(images/3d-plastilina-instagram.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon3{
+    width: 90px;
+    height: 100px;
+    background-image: url(images/3d-plastilina-linkedin.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon4{
+    width: 90px;
+    height: 100px;
+    background-image: url(images/3d-plastilina-twitter.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h1{
+    color: white;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 500px){
+.container{
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+    .linkd{
+        width: 300px;
+        height: 120px;
+        margin-top: 10px;
+        font-size: 15px;
+}
+.fb{
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.insta{
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.twitter{
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+}
